@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("../imagenes/Folleto3.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 600px;
+    aspect-ratio: 1740 / 904;
+
+    background-image: url("../imagenes/Tarjeton.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: url("../imagenes/Cursor.png"), auto;
+}
+
+/* La mancha */
+.mancha {
+    position: absolute;
+
+    background-image: url("../imagenes/mancha.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    pointer-events: none;
+}
